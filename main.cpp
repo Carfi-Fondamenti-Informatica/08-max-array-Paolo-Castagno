@@ -12,7 +12,7 @@ float MAX (int d, float valori[]){
     return a;
 }
 
-int main() {
+void main() {
     int d;
     float k;
     cin>>d;
@@ -22,5 +22,4 @@ int main() {
         valori[i]=k;
     }
     cout << MAX (d, valori);
-    return 0;
 }
